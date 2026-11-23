@@ -1,5 +1,7 @@
+const base = import.meta.env.BASE_URL
+
 export async function getDestinos() {
-  const respuesta = await fetch('/api/destinos')
+  const respuesta = await fetch(`${base}api/destinos`)
   if (!respuesta.ok) {
     throw new Error('No se pudieron cargar los destinos')
   }
@@ -30,7 +32,7 @@ const CONSULTA_PLAN = `
 `
 
 export async function getPlan(destinoId) {
-  const respuesta = await fetch('/graphql', {
+  const respuesta = await fetch(`${base}graphql`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({

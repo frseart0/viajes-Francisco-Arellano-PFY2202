@@ -10,4 +10,4 @@ En esta quinta semana realizarás una actividad sumativa de manera individual, l
     - Emplear una API GraphQL mock para consultar los vuelos y hoteles disponibles en cada destino, incluyendo detalles como precios, fechas y disponibilidad.
     - La interfaz debe permitir que los usuarios seleccionen un destino y, a continuación, puedan ver las opciones de vuelos y hoteles correspondientes para una experiencia completa de planificación de viaje.
 2. Para la navegación del sitio deberás implementar y configurar React Router.
-3. Para la entrega del proyecto, deberás disponibilizar en un repositorio de GitHub con el nombre viajes-nombre-apellido-siglaCurso y compartir la url del repositorio con tu docente.
+3. Para la entrega del proyecto, deberás disponibilizar en un repositorio de GitHub con el nombre viajes-nombre-apellido-siglaCurso y compartir la url del repositorio con tu docente.a
