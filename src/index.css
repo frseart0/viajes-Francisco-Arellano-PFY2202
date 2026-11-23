@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-foam: #f4f7fb;
+  --color-sand: #f3e6d4;
+  --color-sea-800: #0f3d5e;
+  --color-sea-900: #0a2a40;
+  --color-lagoon: #1a7a8c;
+  --color-coral: #e07a5f;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--color-foam);
+  color: var(--color-sea-900);
+}
